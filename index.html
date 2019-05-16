@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=3.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bootstrap Starter</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,600,700">
+    <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat|Source+Sans+Pro" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="css/vendor/reset.css" />
+    <link rel="stylesheet" href="css/vendor/normalize.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" />
+    <link rel="stylesheet" href="css/components/owl-carousel/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/components/owl-carousel/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+    <!-- Wrapper:Start=========================== -->
+    <div class="wrapper">
+        <!-- header:start -->
+        <header class="header" id="header">
+            <nav class="nav header-nav">
+                <div class="header-nav__top">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-10 middle-xs center-xs">
+                                <div class="nav-brand flex-box">
+                                    <a href="index.html">
+                                        Logo
+                                    </a>
+                                    <button id="togglebtn" class="nav-toggle">
+                                        <span class="fa fa-bars"></span>
+                                    </button>
+                                </div>
+                                <!-- nav-brand -->
+                            </div>
+                            <div class="col-xs-4 col-sm-2 middle-xs end-xs">
+                                <div class="nav-actions flex-box">
+                                    <ul class="nav-actions__lists flex-box">
+                                        <li class="nav-list">
+                                            <a href="#"><span class="fa fa-users"></span></a>
+                                        </li>
+                                        <li class="nav-list">
+                                            <a href="#"><span class="fa fa-shopping-cart"></span></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <!-- nav-actions -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- header-top -->
+                <div class="header-nav__bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-10 center-xs middle-xs">
+                                <ul id="mainNav" class="nav-level nav__level1 flex-box">
+                                    <li class="nav-item__level1">
+                                        <a href="#home" class="scroll active">Home</a>
+                                    </li>
+                                    <li class="nav-item__level1">
+                                        <a href="#about" class="dropdown scroll">About<span class="fa fa-sort-down"></span> </a>
+                                        <ul class="flex-box nav-level nav__level2" style="display: none;">
+                                            <li class="nav-item__level2">
+                                                <a href="#">Link1</a>
+                                            </li>
+                                            <li class="nav-item__level2">
+                                                <a href="#">Link2</a>
+                                            </li>
+                                            <li class="nav-item__level2">
+                                                <a href="#">Link3</a>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item__level1">
+                                        <a href="#services" class="scroll">Services</a>
+                                    </li>
+                                    <li class="nav-item__level1">
+                                        <a href="#blog" class="scroll">Blog</a>
+                                    </li>
+                                    <li class="nav-item__level1">
+                                        <a href="#contact" class="scroll">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- col-8-10 -->
+                            <div class="col-xs-4 col-sm-2 center-xs end-xs hide-xs">
+                                <div class="nav-search">
+                                    <a href="#" id="searchToggle" class="search-toggle" aria-expanded="false">
+                                        <span class="fa fa-search"></span>
+                                    </a>
+                                    <div class="search-wrapper">
+                                        <form class="btn-field" method="" action="">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Search here">
+                                                <button class="btn btn-search" type="submit"><span class="fa fa-search"></span></button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- col-4-2 -->
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!--header:end-->
+        <!-- main:start-->
+        <main class="main-content" role="main">
+            <section class="hero-slider" id="home">
+                <div class="hero-slider__wrapper">
+                    <div class="hero__background">
+                        <div class="hero-slideshow owl-carousel owl-theme">
+                            <div class="item">
+                                <div class="hero-image">
+                                    <img class="img-repsonsive" src="https://a2.muscache.com/airbnb/static/landing_pages/pretzel/slideshow/hero1-05aa8ee88095f73396a5d8830699c7ea.jpg" alt="">
+                                </div>
+                                <div class="hero-content">
+                                    <div class="container">
+                                        <div class="hero-texts">
+                                            <div class="hero-title">
+                                                <h1>BENVENUTO A CASA</h1>
+                                            </div>
+                                            <div class="hero-subtitle">
+                                                <h3>Affitta alloggi unici da host locali in 190 Paesi.</h3>
+                                            </div>
+                                            <div class="hero-buttons">
+                                                <a href="#" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <div class="hero-image">
+                                    <img class="img-repsonsive" src="https://a1.muscache.com/airbnb/static/landing_pages/pretzel/slideshow/hero2-d3f476cd0cd289d1750fa6cd58b9d519.jpg" alt="">
+                                </div>
+                                <div class="hero-content">
+                                    <div class="container">
+                                        <div class="hero-texts">
+                                            <div class="hero-title">
+                                                <h1>BENVENUTO A CASA</h1>
+                                            </div>
+                                            <div class="hero-subtitle">
+                                                <h3>Affitta alloggi unici da host locali in 190 Paesi.</h3>
+                                            </div>
+                                            <div class="hero-buttons">
+                                                <a href="#" class="btn btn-primary">Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- for parallax -->
+            <section class="hero-slider" id="hero" style="display: none;"></section>
+            <!-- for Slider -->
+            <!-- about seciton -->
+            <section class="about-section s-pad" id="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>About</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus suscipit incidunt reiciendis atque non blanditiis temporibus at consequuntur, distinctio ullam, optio doloribus commodi consectetur reprehenderit veritatis officia animi maiores iure quibusdam mollitia nam! Cupiditate alias exercitationem, earum adipisci, dolorem qui soluta quisquam laboriosam maiores similique deserunt, voluptatibus quidem nam quae. Quidem quisquam laudantium mollitia dignissimos quia, voluptatum alias sit velit praesentium delectus, earum dicta commodi. Quaerat culpa nobis molestiae distinctio, ab doloribus molestias libero, inventore ea incidunt, nihil optio eaque natus vero veniam enim. Asperiores modi et, vel nemo architecto sunt, ad sed quam ab suscipit sint dicta voluptatibus repellat blanditiis numquam? Corporis, modi ullam, deleniti, numquam expedita repudiandae deserunt, vitae harum architecto quas optio ut! Dicta dolores adipisci est! Reiciendis voluptatum quod repudiandae error illo, est dolorum. Voluptatibus tenetur, reprehenderit deleniti iure maiores voluptate saepe dignissimos aperiam mollitia repudiandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="service-section s-pad" id="services">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>services</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus suscipit incidunt reiciendis atque non blanditiis temporibus at consequuntur, distinctio ullam, optio doloribus commodi consectetur reprehenderit veritatis officia animi maiores iure quibusdam mollitia nam! Cupiditate alias exercitationem, earum adipisci, dolorem qui soluta quisquam laboriosam maiores similique deserunt, voluptatibus quidem nam quae. Quidem quisquam laudantium mollitia dignissimos quia, voluptatum alias sit velit praesentium delectus, earum dicta commodi. Quaerat culpa nobis molestiae distinctio, ab doloribus molestias libero, inventore ea incidunt, nihil optio eaque natus vero veniam enim. Asperiores modi et, vel nemo architecto sunt, ad sed quam ab suscipit sint dicta voluptatibus repellat blanditiis numquam? Corporis, modi ullam, deleniti, numquam expedita repudiandae deserunt, vitae harum architecto quas optio ut! Dicta dolores adipisci est! Reiciendis voluptatum quod repudiandae error illo, est dolorum. Voluptatibus tenetur, reprehenderit deleniti iure maiores voluptate saepe dignissimos aperiam mollitia repudiandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="blog-section s-pad" id="blog">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>blog</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus suscipit incidunt reiciendis atque non blanditiis temporibus at consequuntur, distinctio ullam, optio doloribus commodi consectetur reprehenderit veritatis officia animi maiores iure quibusdam mollitia nam! Cupiditate alias exercitationem, earum adipisci, dolorem qui soluta quisquam laboriosam maiores similique deserunt, voluptatibus quidem nam quae. Quidem quisquam laudantium mollitia dignissimos quia, voluptatum alias sit velit praesentium delectus, earum dicta commodi. Quaerat culpa nobis molestiae distinctio, ab doloribus molestias libero, inventore ea incidunt, nihil optio eaque natus vero veniam enim. Asperiores modi et, vel nemo architecto sunt, ad sed quam ab suscipit sint dicta voluptatibus repellat blanditiis numquam? Corporis, modi ullam, deleniti, numquam expedita repudiandae deserunt, vitae harum architecto quas optio ut! Dicta dolores adipisci est! Reiciendis voluptatum quod repudiandae error illo, est dolorum. Voluptatibus tenetur, reprehenderit deleniti iure maiores voluptate saepe dignissimos aperiam mollitia repudiandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="contact-section s-pad" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <h1>contact</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus suscipit incidunt reiciendis atque non blanditiis temporibus at consequuntur, distinctio ullam, optio doloribus commodi consectetur reprehenderit veritatis officia animi maiores iure quibusdam mollitia nam! Cupiditate alias exercitationem, earum adipisci, dolorem qui soluta quisquam laboriosam maiores similique deserunt, voluptatibus quidem nam quae. Quidem quisquam laudantium mollitia dignissimos quia, voluptatum alias sit velit praesentium delectus, earum dicta commodi. Quaerat culpa nobis molestiae distinctio, ab doloribus molestias libero, inventore ea incidunt, nihil optio eaque natus vero veniam enim. Asperiores modi et, vel nemo architecto sunt, ad sed quam ab suscipit sint dicta voluptatibus repellat blanditiis numquam? Corporis, modi ullam, deleniti, numquam expedita repudiandae deserunt, vitae harum architecto quas optio ut! Dicta dolores adipisci est! Reiciendis voluptatum quod repudiandae error illo, est dolorum. Voluptatibus tenetur, reprehenderit deleniti iure maiores voluptate saepe dignissimos aperiam mollitia repudiandae.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <!-- main:end-->
+        <!-- footer:start -->
+        <footer class="footer s-pad" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <a href="#hero" class="scroll"><span class=" fa fa-home"></span></a>
+                    </div>       
+
+                </div>
+            </div>
+        </footer>
+        <!-- footer:end -->
+    </div>
+    <!-- Wrapper:End============================= -->
+    <!-- Scripts -->
+    <!-- jQuery library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+    window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')
+    </script>
+    <script src="js/vendor/modernizr.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> -->
+    <!--  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> -->
+    <script src="js/components/owlcarousel/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
